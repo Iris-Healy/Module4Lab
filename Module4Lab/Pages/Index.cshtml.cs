@@ -6,7 +6,7 @@ namespace Module4Lab.Pages
     public class IndexModel : PageModel
     {
         [BindProperty]
-        public string[] Shows { get; set; } = new string[3];
+        public string[] Shows { get; set; } = new string[5];
 
         public string[] SampleShows { get; set; }
         public bool ShowResults { get; set; } = false;
